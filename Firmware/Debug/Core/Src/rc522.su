@@ -1,0 +1,12 @@
+../Core/Src/rc522.c:55:20:CS_LOW	16	static
+../Core/Src/rc522.c:63:20:CS_HIGH	16	static
+../Core/Src/rc522.c:80:6:RC522_WriteReg	32	static
+../Core/Src/rc522.c:94:9:RC522_ReadReg	40	static
+../Core/Src/rc522.c:104:6:RC522_SetBitMask	32	static
+../Core/Src/rc522.c:110:6:RC522_ClearBitMask	32	static
+../Core/Src/rc522.c:120:13:RC522_AntennaOn	32	static
+../Core/Src/rc522.c:131:6:RC522_InitHandle	24	static
+../Core/Src/rc522.c:144:6:RC522_Reset	16	static
+../Core/Src/rc522.c:156:14:RC522_Init	16	static
+../Core/Src/rc522.c:226:14:RC522_IsNewCardPresent	32	static
+../Core/Src/rc522.c:287:14:RC522_ReadCardUID	32	static

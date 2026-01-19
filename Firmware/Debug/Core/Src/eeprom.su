@@ -1,0 +1,9 @@
+../Core/Src/eeprom.c:29:16:get_dev_addr	24	static
+../Core/Src/eeprom.c:47:13:write_uid_at	56	static
+../Core/Src/eeprom.c:68:13:read_uid_at	56	static
+../Core/Src/eeprom.c:84:6:EEPROM_Init	16	static
+../Core/Src/eeprom.c:98:6:EEPROM_Wipe	32	static
+../Core/Src/eeprom.c:109:9:EEPROM_GetCount	32	static
+../Core/Src/eeprom.c:122:6:EEPROM_CheckUID	32	static
+../Core/Src/eeprom.c:144:9:EEPROM_SaveUID	48	static
+../Core/Src/eeprom.c:174:6:EEPROM_DeleteUID	48	static

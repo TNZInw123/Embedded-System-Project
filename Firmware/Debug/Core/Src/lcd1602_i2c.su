@@ -1,0 +1,11 @@
+../Core/Src/lcd1602_i2c.c:32:13:i2c_write_byte	40	static
+../Core/Src/lcd1602_i2c.c:47:13:lcd_pulse_enable	16	static
+../Core/Src/lcd1602_i2c.c:63:13:lcd_write_nibble	32	static
+../Core/Src/lcd1602_i2c.c:77:13:lcd_send	16	static
+../Core/Src/lcd1602_i2c.c:95:6:LCD_Init	24	static
+../Core/Src/lcd1602_i2c.c:128:6:LCD_SendCommand	16	static
+../Core/Src/lcd1602_i2c.c:137:6:LCD_SendData	16	static
+../Core/Src/lcd1602_i2c.c:145:6:LCD_Print	16	static
+../Core/Src/lcd1602_i2c.c:156:6:LCD_Clear	16	static
+../Core/Src/lcd1602_i2c.c:166:6:LCD_SetCursor	40	static
+../Core/Src/lcd1602_i2c.c:182:6:LCD_CreateCustomChar	32	static
