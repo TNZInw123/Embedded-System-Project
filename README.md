@@ -1,6 +1,6 @@
 # RFID Access System with EEPROM Database and User Interface
 
-![20260115_225029](https://github.com/user-attachments/assets/ccba5cba-596f-461e-bf12-30a481a9eb0d)
+![Untitled design](https://github.com/user-attachments/assets/fefa0fb1-4c37-495e-b8b4-2952e72e3c30)
 
 ## 📌 Project Overview
 **Course:** FRA421: Embedded System
@@ -21,9 +21,7 @@ The system is designed with **Modular Programming** principles and utilizes a **
 * **Custom Firmware Drivers:** Manually implemented libraries for MFRC522 (SPI) and LCD (I2C) to demonstrate low-level understanding.
 * **PCB Design:** Custom-designed PCB integrating MCU, RFID, and Power delivery.
 
-* ![1](https://github.com/user-attachments/assets/b7060813-3eb3-4c75-b096-9806af8a1c4a)
-
-![2](https://github.com/user-attachments/assets/e5feaa75-ee7c-4267-855a-9a8bd17affbe)
+![1](https://github.com/user-attachments/assets/b7060813-3eb3-4c75-b096-9806af8a1c4a)
 
 ## ⚙️ Hardware Specifications
 | Component | Function | Communication |
