@@ -1,14 +1,9 @@
 # RFID Access System with EEPROM Database and User Interface
-Firmware and CAD Design for FRA421: Embedded System Course Project
+
 <img width="1530" height="1152" alt="image" src="https://github.com/user-attachments/assets/91e254c1-0b4e-4e2e-a9e8-0bae24151184" />
 
-# RFID Access System with EEPROM Database and User Interface
-
-![System CAD Design](https://github.com/your-username/your-repo/blob/main/path-to-your-image.png?raw=true)
-*(Replace the link above with the actual path to your CAD image if available, or keep your existing image upload)*
-
 ## 📌 Project Overview
-**Course:** FRA421 - Embedded Systems  
+**Course:** FRA421: Embedded System
 [cite_start]**Author:** Pongnapat Arayangkul (66340500032) [cite: 2]  
 
 This project is a standalone **RFID Access Control System** powered by an **STM32L010** microcontroller. It features a fully integrated database system using an **EEPROM** chip to store, add, and delete authorized user cards (UIDs) without needing a connection to a PC.
@@ -55,7 +50,7 @@ This project is a standalone **RFID Access Control System** powered by an **STM3
 ```text
 📦 RFID-Access-System
  ┣ 📂 Firmware               # Source code (STM32CubeIDE Project)
- ┃ ┣ 📂 Core/Src             # Main Logic (main.c, fsm.c, drivers)
+ ┃ ┣ 📂 Core/Src             # Main Logic (main.c, drivers)
  ┃ ┣ 📂 Core/Inc             # Headers (rc522.h, eeprom.h, lcd.h)
  ┃ ┗ ...
  ┣ 📜 RFID_System-CAD.zip    # CAD/3D Model files for the enclosure
