@@ -1,25 +1,29 @@
 # RFID Access System with EEPROM Database and User Interface
 
-<img width="1530" height="1152" alt="image" src="https://github.com/user-attachments/assets/91e254c1-0b4e-4e2e-a9e8-0bae24151184" />
+![20260115_225029](https://github.com/user-attachments/assets/ccba5cba-596f-461e-bf12-30a481a9eb0d)
 
 ## 📌 Project Overview
 **Course:** FRA421: Embedded System
-[cite_start]**Author:** Pongnapat Arayangkul (66340500032) [cite: 2]  
+**Author:** Pongnapat Arayangkul (66340500032)
 
 This project is a standalone **RFID Access Control System** powered by an **STM32L010** microcontroller. It features a fully integrated database system using an **EEPROM** chip to store, add, and delete authorized user cards (UIDs) without needing a connection to a PC.
 
-[cite_start]The system is designed with **Modular Programming** principles and utilizes a **Finite State Machine (FSM)** to manage user inputs, display logic, and hardware communication seamlessly[cite: 4, 16].
+The system is designed with **Modular Programming** principles and utilizes a **Finite State Machine (FSM)** to manage user inputs, display logic, and hardware communication seamlessly.
 
 ## 🛠 Features
 * **Standalone Operation:** Verify User Cards against an internal database.
 * **Admin Mode:** Add or Delete users directly using the device interface (LCD + Buttons).
-* [cite_start]**Persistent Storage:** Uses I2C EEPROM to save users even when power is lost[cite: 10].
-* [cite_start]**Real-Time Clock (RTC):** Displays current Date and Time on the LCD[cite: 15].
+* **Persistent Storage:** Uses I2C EEPROM to save users even when power is lost.
+* **Real-Time Clock (RTC):** Displays current Date and Time on the LCD.
 * **Interactive UI:**
     * **LCD 1602 (I2C):** Shows status, menus, and custom icons (♥, ✔, ✖).
     * **RGB LED & Buzzer:** Provides visual and audio feedback for access events.
-* [cite_start]**Custom Firmware Drivers:** Manually implemented libraries for MFRC522 (SPI) and LCD (I2C) to demonstrate low-level understanding[cite: 7].
-* [cite_start]**PCB Design:** Custom-designed PCB integrating MCU, RFID, and Power delivery[cite: 6].
+* **Custom Firmware Drivers:** Manually implemented libraries for MFRC522 (SPI) and LCD (I2C) to demonstrate low-level understanding.
+* **PCB Design:** Custom-designed PCB integrating MCU, RFID, and Power delivery.
+
+* ![1](https://github.com/user-attachments/assets/b7060813-3eb3-4c75-b096-9806af8a1c4a)
+
+![2](https://github.com/user-attachments/assets/e5feaa75-ee7c-4267-855a-9a8bd17affbe)
 
 ## ⚙️ Hardware Specifications
 | Component | Function | Communication |
@@ -32,7 +36,7 @@ This project is a standalone **RFID Access Control System** powered by an **STM3
 | **RTC** | Internal Real-Time Clock | Internal |
 
 ## 🧩 Software Architecture
-[cite_start]The firmware is built upon a **Non-Blocking Finite State Machine (FSM)** structure[cite: 8]. This ensures the system can poll for cards, update the clock, and listen for button presses simultaneously without "freezing."
+The firmware is built upon a **Non-Blocking Finite State Machine (FSM)** structure. This ensures the system can poll for cards, update the clock, and listen for button presses simultaneously without "freezing."
 
 ### System States
 1.  **IDLE_WAIT:** Polls for cards every 50ms while updating the RTC clock on the LCD.
